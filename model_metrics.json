@@ -1,0 +1,228 @@
+{
+    "best_model": "Multinomial Naive Bayes",
+    "dataset_metadata": {
+        "total_records": 5169,
+        "ham_count": 4516,
+        "spam_count": 653,
+        "ham_percentage": 87.37,
+        "spam_percentage": 12.63,
+        "vocabulary_size": 3500
+    },
+    "model_performance": {
+        "Multinomial Naive Bayes": {
+            "accuracy": 0.9816,
+            "precision": 0.9828,
+            "recall": 0.8702,
+            "f1_score": 0.9231,
+            "confusion_matrix": [
+                [
+                    899,
+                    2
+                ],
+                [
+                    17,
+                    114
+                ]
+            ],
+            "test_samples": 1032
+        },
+        "Logistic Regression": {
+            "accuracy": 0.969,
+            "precision": 0.9714,
+            "recall": 0.7786,
+            "f1_score": 0.8644,
+            "confusion_matrix": [
+                [
+                    898,
+                    3
+                ],
+                [
+                    29,
+                    102
+                ]
+            ],
+            "test_samples": 1032
+        },
+        "Support Vector Machine": {
+            "accuracy": 0.9845,
+            "precision": 0.9389,
+            "recall": 0.9389,
+            "f1_score": 0.9389,
+            "confusion_matrix": [
+                [
+                    893,
+                    8
+                ],
+                [
+                    8,
+                    123
+                ]
+            ],
+            "test_samples": 1032
+        }
+    },
+    "top_spam_keywords": [
+        {
+            "word": "txt",
+            "weight": 5.273
+        },
+        {
+            "word": "repli",
+            "weight": 4.028
+        },
+        {
+            "word": "mobil",
+            "weight": 3.968
+        },
+        {
+            "word": "claim",
+            "weight": 3.673
+        },
+        {
+            "word": "free",
+            "weight": 3.667
+        },
+        {
+            "word": "call",
+            "weight": 3.58
+        },
+        {
+            "word": "text",
+            "weight": 3.37
+        },
+        {
+            "word": "prize",
+            "weight": 3.238
+        },
+        {
+            "word": "servic",
+            "weight": 3.122
+        },
+        {
+            "word": "stop",
+            "weight": 3.08
+        },
+        {
+            "word": "tone",
+            "weight": 2.863
+        },
+        {
+            "word": "win",
+            "weight": 2.664
+        },
+        {
+            "word": "uk",
+            "weight": 2.645
+        },
+        {
+            "word": "new",
+            "weight": 2.552
+        },
+        {
+            "word": "cash",
+            "weight": 2.52
+        },
+        {
+            "word": "rington",
+            "weight": 2.436
+        },
+        {
+            "word": "pleas call",
+            "weight": 2.325
+        },
+        {
+            "word": "chat",
+            "weight": 2.264
+        },
+        {
+            "word": "urgent",
+            "weight": 2.256
+        },
+        {
+            "word": "min",
+            "weight": 2.236
+        }
+    ],
+    "top_ham_keywords": [
+        {
+            "word": "ok",
+            "weight": 1.96
+        },
+        {
+            "word": "gt",
+            "weight": 1.453
+        },
+        {
+            "word": "lt",
+            "weight": 1.434
+        },
+        {
+            "word": "home",
+            "weight": 1.388
+        },
+        {
+            "word": "come",
+            "weight": 1.309
+        },
+        {
+            "word": "later",
+            "weight": 1.308
+        },
+        {
+            "word": "da",
+            "weight": 1.272
+        },
+        {
+            "word": "lt gt",
+            "weight": 1.255
+        },
+        {
+            "word": "hey",
+            "weight": 1.204
+        },
+        {
+            "word": "say",
+            "weight": 1.204
+        },
+        {
+            "word": "lor",
+            "weight": 1.193
+        },
+        {
+            "word": "got",
+            "weight": 1.179
+        },
+        {
+            "word": "sorri",
+            "weight": 1.174
+        },
+        {
+            "word": "way",
+            "weight": 1.1
+        },
+        {
+            "word": "love",
+            "weight": 1.077
+        },
+        {
+            "word": "much",
+            "weight": 1.071
+        },
+        {
+            "word": "know",
+            "weight": 1.065
+        },
+        {
+            "word": "oh",
+            "weight": 1.059
+        },
+        {
+            "word": "still",
+            "weight": 1.041
+        },
+        {
+            "word": "lol",
+            "weight": 1.014
+        }
+    ]
+}
